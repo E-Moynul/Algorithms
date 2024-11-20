@@ -12,7 +12,7 @@ ll mod_inv(ll n1,ll n2)///EXTENDED EUCLIDEAN ALGORITHM TO FIND MODULAR INVERSE
     }
     if(__gcd(n1,n2)!=1)
     {
-        return 0 ;
+        return -1 ;
     }
 
     int q,a,b,t1,t2,t ;
